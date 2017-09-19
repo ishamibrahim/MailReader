@@ -2,3 +2,4 @@ pyttsx
 gTTS
 beautifulsoup4
 python-daemon
+supervisor
