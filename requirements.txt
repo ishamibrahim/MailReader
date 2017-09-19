@@ -1,0 +1,5 @@
+pyttsx
+pyobjc
+gTTS
+beautifulsoup4
+python-daemon
