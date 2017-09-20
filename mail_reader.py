@@ -25,9 +25,8 @@ def read_new_mail():
             latest_id = items[-1].split()[0]
 
             response, lines, octets = p.retr(latest_id)
-
+            speak_the_sentence("You have received a new message.")
             for mailline in lines:
-                speak_the_sentence("You have received a new message.")
                 if mailline.startswith("From: "):
                     speak_the_sentence(mailline)
                 if mailline.startswith("Subject: "):
