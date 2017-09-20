@@ -27,13 +27,13 @@ def read_new_mail():
             response, lines, octets = p.retr(latest_id)
 
             for mailline in lines:
-                if mailline.startswith("Subject: "):
-                    speak_the_sentence(mailline)
-
+                speak_the_sentence("You have received a new message.")
                 if mailline.startswith("From: "):
                     speak_the_sentence(mailline)
-
+                if mailline.startswith("Subject: "):
+                    speak_the_sentence(mailline)
                 if mailline.startswith("<div"):
+                    speak_the_sentence("The mail contents are.")
                     mesg_start = lines.index(mailline)
                     new_hlist = list()
                     if mesg_start:
