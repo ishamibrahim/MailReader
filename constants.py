@@ -1,5 +1,5 @@
 ORG_EMAIL = "@gmail.com"
-FROM_EMAIL = "hisham.0.ibrahim"
+FROM_EMAIL = "isham1697"
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT = 993
 GOOGLE_ACCOUNTS_BASE_URL = 'https://accounts.google.com'
