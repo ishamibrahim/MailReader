@@ -8,7 +8,7 @@ import time
 
 SERVER = "pop.gmail.com"
 USER = "isham1697@gmail.com"
-PASSWORD = "poiuytrewq0987654321"
+PASSWORD = "" # Fill the email's real password 
 
 
 def read_new_mail():
